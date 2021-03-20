@@ -22,9 +22,12 @@ BASE_DIR = Path(__file__).resolve(strict=True).parent.parent
 SECRET_KEY = '%23jz81$t8%(gni-^yn9m96-jo4*qd1x(n4q5c@mxw@h%hhl5r'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = ['student-app-todo-api.herokuapp.com', 'alphasabawu-crm1.herokuapp.com', '127.0.0.1']
+ALLOWED_HOSTS = ['alphasabawu-crm1.herokuapp.com', '127.0.0.1']
+# student-app-
+#todo-api.
+# herokuapp.com
 
 # Application definition
 
